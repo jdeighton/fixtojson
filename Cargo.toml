@@ -1,0 +1,16 @@
+[package]
+name = "fixtojson"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.2", features = ["derive"] }
+fixparser = "0.1.5"
+flate2 = "1.0.27"
+
+[dev-dependencies]
+assert_cmd = "2.0.12"
+predicates = "3.0.3"
+rand = "0.8.5"
